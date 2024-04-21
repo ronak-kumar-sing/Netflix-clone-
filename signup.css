@@ -1,0 +1,124 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body styles */
+body {
+    height:  130vh;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    /* background-image: rgba( 0,0,0,0.7)url(/img/Netflix-Background.jpg); */
+    background:  rgba(0,0,0,0.7)url(/img/Netflix-Background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* Navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+#nav img{
+    position: relative;
+    left: 7rem;
+    height: 5rem;
+    padding:  .75rem;
+} 
+.left-section{
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    padding-right: 6rem;
+}
+
+select{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+#language-select{
+    outline: none;
+    height: 2.3rem;
+    width: 8rem;
+    padding: 5px 1.3rem;
+    background: transparent;
+    color: #fff;
+}
+.left-section a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #e50914;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+.left-section a:hover {
+    background-color: #e50914;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 15px;
+}
+
+/* Form wrapper styles */
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.email{
+    position: relative;
+    min-width: 14rem;
+    width: 20rem;
+    height: 60px;
+    outline: none;
+    font-size: 1em;
+    padding: 1rem 15px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.416);
+    background: transparent;
+    transition: 0.2s ease;
+    z-index: 1111;
+}
+.liile {
+    position: relative;
+    font-size: medium;
+    bottom: 39px;
+    color: #999999;
+    padding: 0 5px;
+    margin: 0 13px;
+    transition: 0.2s ease;
+
+}
+.email:focus {
+    color: rgb(227, 227, 227);
+    border: 2px solid #e50914;
+}
+.email:focus + .liile{
+    color: #999999;
+    line-height: 30px;
+    transform: translate(-35px ,-23px) scale(0.78);
+    z-index: 1111;
+}
+.form-wrapper button{
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 5px;
+    width: 13rem;
+    height: 3.8rem;
+    font-size: x-large;
+    font-weight: 590;
+}
