@@ -13,7 +13,7 @@ body {
     font-family: Arial, sans-serif;
     color: #ffffff;
     /* background-image: rgba( 0,0,0,0.7)url(/img/Netflix-Background.jpg); */
-    background:  rgba(0,0,0,0.7)url(/img/Netflix-Background.jpg);
+    background:  rgba(0,0,0,0.7)url(Netflix-Background.jpg);
     background-size: cover;
     background-blend-mode: darken;
 }
